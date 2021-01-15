@@ -7,14 +7,15 @@ h1{
 }
 #head{
   font-size:50px;
-  z-index:10;
+  z-index:9;
 }
 #p1{
   font-size:25px;
 color: white;
 }
 .menu{
- list-style: none;
+ z-index: 10;
+  list-style: none;
   font-family:cursive;
   float: right;
   top: 10px;
@@ -30,12 +31,14 @@ color: white;
   padding-bottom:5px;
   padding-right:9px;
   padding-left:9px;
+  display: inline;
 }
 .li:hover{
-  background-color:pink;
+  background-color: aquamarine;
 }
-#link 1{
+#link1{
   text-align:left;
+  color: chartreuse;
 }
 #inspiration{
     font-size: 50px;
@@ -56,4 +59,7 @@ border: 10px solid #AAAAAA;
 }
 #gamesHead{
     font-size: 50px;
+}
+#id1{
+  color: chartreuse;
 }
