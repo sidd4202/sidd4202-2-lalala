@@ -9,8 +9,9 @@ h1{
   font-size:50px;
   z-index:10;
 }
-#p{
+#p1{
   font-size:25px;
+color: white;
 }
 .menu{
  list-style: none;
@@ -49,4 +50,10 @@ border: 10px solid #AAAAAA;
 }
 #dream_channel:hover{
     transform: scale(0.9);
+}
+#ps console{
+    align-self:left;
+}
+#gamesHead{
+    font-size: 50px;
 }
